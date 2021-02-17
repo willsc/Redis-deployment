@@ -31,15 +31,11 @@ choco install git
  
  
  ```
- PS C:\Users\Ajeet_Raina> kubectl config get-contexts
-CURRENT   NAME                                         CLUSTER                                      AUTHINFO                                     NAMESPACE
-*         gke_lofty-tea-249310_asia-east1-a_k8s-lab1   gke_lofty-tea-249310_asia-east1-a_k8s-lab1   gke_lofty-tea-249310_asia-east1-a_k8s-lab1
-PS C:\Users\Ajeet_Raina> kubectl get nodes
-NAME                                      STATUS   ROLES    AGE   VERSION
-gke-k8s-lab1-default-pool-f1fae040-9vd9   Ready    <none>   64m   v1.13.11-gke.23
-gke-k8s-lab1-default-pool-f1fae040-ghf5   Ready    <none>   64m   v1.13.11-gke.23
-gke-k8s-lab1-default-pool-f1fae040-z0rf   Ready    <none>   64m   v1.13.11-gke.23
-PS C:\Users\Ajeet_Raina>
+ k get nodes
+NAME                                       STATUS   ROLES    AGE    VERSION
+gke-cluster-1-default-pool-0de11b8d-077v   Ready    <none>   115m   v1.17.15-gke.800
+gke-cluster-1-default-pool-0de11b8d-c0pk   Ready    <none>   116m   v1.17.15-gke.800
+gke-cluster-1-default-pool-0de11b8d-nqlk   Ready    <none>   115m   v1.17.15-gke.800
 ```
 
 
