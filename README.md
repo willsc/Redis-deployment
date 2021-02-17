@@ -81,6 +81,7 @@ data-redis-cluster-5   Bound    pvc-88d79f84-ee97-43b4-8dd3-ef2b42e71603   10Gi 
 
 
 ```
+```
 k describe pods
 Name:         redis-cluster-0
 Namespace:    default
